@@ -12,3 +12,6 @@ df.info()
 
 #are there any missing values
 df.isnull().sum()
+
+#how does the data look mathematically
+df.describe()
