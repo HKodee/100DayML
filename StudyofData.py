@@ -9,3 +9,6 @@ df.head()
 
 #what is the data type of cols?
 df.info()
+
+#are there any missing values
+df.isnull().sum()
