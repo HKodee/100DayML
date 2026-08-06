@@ -6,3 +6,6 @@ df.shape()
 
 #how does data look like
 df.head()
+
+#what is the data type of cols?
+df.info()
