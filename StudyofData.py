@@ -18,3 +18,6 @@ df.describe()
 
 #are there duplicate values
 df.duplicated().sum()
+
+#how is the correlation between cols
+df.corr()
