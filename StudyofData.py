@@ -15,3 +15,6 @@ df.isnull().sum()
 
 #how does the data look mathematically
 df.describe()
+
+#are there duplicate values
+df.duplicated().sum()
