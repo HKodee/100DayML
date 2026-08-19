@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.DataFrame("train.csv")
+df = pd.read_csv('train.csv')
 
 #how big is data
 df.shape()
