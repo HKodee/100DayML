@@ -32,8 +32,9 @@ def even_numbers(start, end):
     current = start
     
     while current<=end:
-        if current%2==0:
+        if current%2 == 0:
             yield current
+        current += 1
 
 e = even_numbers(15,47)
 print(next(e))
@@ -42,7 +43,19 @@ for x in e:
    
    
 #practice question 2  
-# def greater_than_50(numbers):
-#     i=0
-#     for i<len(numbers):
-#         if
+cent50 =[47,295,39,58,6,79,93,103,20,2]
+
+def greater_than_50(list):
+    i = 0
+    while i<len(list):
+        if list[i]-50 > 0:
+            yield list[i]
+        i += 1
+            
+g = greater_than_50(cent50)
+print(next(g))
+
+for x in g:
+    print(x)
+        
+            
